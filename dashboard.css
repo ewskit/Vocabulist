@@ -1,0 +1,37 @@
+/* Update the spacing for top buttons */
+.top-buttons {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px; /* Adjust padding */
+    background-color: #f0f0f0;
+  }
+  
+  .top-button {
+    padding: 6px 10px; /* Adjust padding */
+    margin: 0 10px; /* Adjust margins */
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Update the spacing for side buttons */
+  .side-buttons {
+    grid-row: 2 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; /* Adjust padding */
+    background-color: #f0f0f0;
+  }
+  
+  .side-button {
+    margin: 0; /* Adjust margins */
+    padding: 12px 10px; /* Adjust padding */
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
